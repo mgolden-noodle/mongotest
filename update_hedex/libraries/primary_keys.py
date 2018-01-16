@@ -17,7 +17,7 @@ class PrimaryKeys(object):
                     },
                     "PersonAddresses": {
                         "_": [
-                            [("addressType", "string"), ("addressLine1", "string"), ("addressLine2", "string", None), ("addressLine3", "string", None),
+                            [("addressType", "string"), ("addressLine1", "string"),
                              ("city", "string"), ("state", "string"), ("postalCode", "string"), ("country", "string", None),
                              ("addressStartDate", "date", None), ("addressEndDate", "date", None)]
                         ]
