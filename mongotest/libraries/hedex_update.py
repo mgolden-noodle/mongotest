@@ -7,9 +7,9 @@ class HedexUpdate(object):
     def update_array_by_pk(self, the_array, update_dict, primary_keys):
         # Type checks
         if not DictFuncs.is_sequence(theArray):
-            raise ValueError("updateArrayByPK requires a list/tuple as the first parameter")
+            raise ValueError("update_array_by_pk requires a list/tuple as the first parameter")
         if not isinstance(update_dict, dict):
-            raise ValueError("updateArrayByPK requires a dict as the second parameter")
+            raise ValueError("update_array_by_pk requires a dict as the second parameter")
         # We're going to loop over all the items in theArray
         # We want to keep track of whether an iterm was updated
         wasUpdated = False
@@ -17,14 +17,14 @@ class HedexUpdate(object):
         for obj in the_array:
             # Another type check
             if not isinstance(obj, dict):
-                raise ValueError("updateArrayByPK requires the members of the second parameter to be dicts")
+                raise ValueError("update_array_by_pk requires the members of the second parameter to be dicts")
             # Check primary keys
             if self._check_pks(obj, primary_keys):
-                # If a primary key on this object matched the update_obj, the update the obj
+                # If a primary key on this object matched the update_obj, then update the obj
                 self._do_update(obj, update_dict, primary_keys)
             else:
                 # If we didn't update an item in the list, add the whole update_dict as a new item
-                theArray.append(update_dict)
+                the_array.append(update_dict)
     
     
     @classMethod
@@ -72,18 +72,24 @@ class HedexUpdate(object):
             if DictFuncs.is_sequence(val):
                 # We should know about this in the object structure mapping
                 if key not in primary_keys:
-                    raise ValueError("unexpected key " + key + " found in object nesting")
+                    raise ValueError("unknown key '" + key + "' found")
+                pk_key = primary_keys[key]
+                if "_" not in pk_key:
+                    raise ValueError("on key '" + key + "' an array was found where a one-to-one child was expected")
                 if key in obj:
-                    # If it's in the object we're updating, we need to recur to update it
-                    self.update_array_by_pk(obj[key], val, primary_keys[key])
+                    # If this key is in the object we're updating, we need to recur to update it
+                    self.update_array_by_pk(obj[key], val, pk_key)
                 else:
                     # If it's not, then we need to add it
                     obj[key] = update_dict[key]
             elif isinstance(val, dict):
-                # If it's a dictionary, then we have a one-to-one sub
+                # If it's a dictionary, then we have a one-to-one child
                 # We should know about this in the object structure mapping
                 if key not in primary_keys:
-                    raise ValueError("unexpected one-to-one key " + key + " found in object nesting")
+                    raise ValueError("unexpected one-to-one child on key '" + key + "' found")
+                # An "_" element means that this was supposed to be an array
+                if "_" in primary_keys[key]:
+                    raise ValueError("on key '" + key + "' an one-to-one child was found where and array was expected")
                 if key in obj:
                     # If the key is there, we simply update it - no need to search!
                     self.do_update(obj[key], val, primary_keys[key])
