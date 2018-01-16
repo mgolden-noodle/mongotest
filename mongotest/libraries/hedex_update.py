@@ -3,17 +3,14 @@ from libraries.dict_funcs import DictFuncs
 
 class HedexUpdate(object):
     
-    @classMethod
+    @classmethod
     def update_array_by_pk(self, the_array, update_dict, primary_keys):
         # Type checks
-        if not DictFuncs.is_sequence(theArray):
+        if not DictFuncs.is_sequence(the_array):
             raise ValueError("update_array_by_pk requires a list/tuple as the first parameter")
         if not isinstance(update_dict, dict):
             raise ValueError("update_array_by_pk requires a dict as the second parameter")
         # We're going to loop over all the items in theArray
-        # We want to keep track of whether an iterm was updated
-        wasUpdated = False
-        # Start the loop
         for obj in the_array:
             # Another type check
             if not isinstance(obj, dict):
@@ -27,16 +24,17 @@ class HedexUpdate(object):
                 the_array.append(update_dict)
     
     
-    @classMethod
+    @classmethod
     def _check_pks(self, obj, update_obj, primary_keys):
         # The "_" element of the primary_keys dict is the list of primary keys consisting of tuples
+        # Don't check for the existence of this, it has already been checked before invocation
         for p in primary_keys["_"]:
-            if self._check_pk(obj, update_obj, tup):
+            if self._check_pk(obj, update_obj, p):
                 return True
     
     
-    @classMethod
-    def _check_pk(self, obj, update_obj, tup):
+    @classmethod
+    def _check_pk(self, obj, update_obj, p):
         # Each primary key is a list of tuples
         for tup in p:
             # The name of the primary key column is the element 0
@@ -65,7 +63,7 @@ class HedexUpdate(object):
         return True
     
     
-    @classMethod
+    @classmethod
     def do_update(self, obj, update_dict, primary_keys):
         for key, val in update_dict.items():
             # If the value is a list/tuple
@@ -87,12 +85,13 @@ class HedexUpdate(object):
                 # We should know about this in the object structure mapping
                 if key not in primary_keys:
                     raise ValueError("unexpected one-to-one child on key '" + key + "' found")
+                pk_key = primary_keys[key]
                 # An "_" element means that this was supposed to be an array
-                if "_" in primary_keys[key]:
+                if "_" in pk_key:
                     raise ValueError("on key '" + key + "' an one-to-one child was found where and array was expected")
                 if key in obj:
                     # If the key is there, we simply update it - no need to search!
-                    self.do_update(obj[key], val, primary_keys[key])
+                    self.do_update(obj[key], val, pk_key)
             elif val == None:
                 # This means to remove the item from the structure
                 obj.pop(key, None)
