@@ -17,19 +17,18 @@ class PrimaryKeys(object):
                     },
                     "PersonAddresses": {
                         "_": [
-                            [("addressType", "string"), ("addressLine1", "string"),
-                             ("city", "string"), ("state", "string"), ("postalCode", "string"), ("country", "string", None),
+                            [("addressType", "string"),
                              ("addressStartDate", "date", None), ("addressEndDate", "date", None)]
                         ]
                     },
                     "PersonPhones": {
                         "_": [
-                            [("phoneNumber", "string"), ("phoneType", "string"), ("phoneExtension", "string")]
+                            [("phoneType", "string")]
                         ]
                     },
                     "PersonEmails": {
                         "_": [
-                            [("emailAddress", "string"), ("emailAddressType", "string")]
+                            [("emailAddressType", "string")]
                         ]
                     }
                 }
