@@ -1,5 +1,24 @@
 class PrimaryKeys(object):
     primary_keys = {
+        "Retention_Catalog_Terms": {
+            "terms": {
+                "_": [
+                    [("termCode")]
+                ]
+            }
+        },
+        
+        "Retention_Catalog_Sections": {
+            "sections": {
+                "_": [
+                    [("sisSectionId")],
+                    [("lmsSectionId")],
+                    [("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("termCode"), ("sectionRefNum")],
+                ]
+            }
+        },
+        
         "Retention_FacultyStaff_Staff": {
             "staff": {
                 "_": [
@@ -7,31 +26,134 @@ class PrimaryKeys(object):
                 ],
                 "personItems": {
                     "_": [
-                        [("personSisId", "string")],
-                        [("personLmsId", "string")]
+                        [("personSisId")],
+                        [("personLmsId")]
                     ],
                     "alternateIDs": {
                         "_": [
-                            [("personAlternateIdType", "string")]
+                            [("personAlternateIdType")]
                         ]
                     },
                     "PersonAddresses": {
                         "_": [
-                            [("addressType", "string"),
-                             ("addressStartDate", "date", None), ("addressEndDate", "date", None)]
+                            [("addressType"), ("addressStartDate", "date", None), ("addressEndDate", "date", None)]
                         ]
                     },
                     "PersonPhones": {
                         "_": [
-                            [("phoneType", "string")]
+                            [("phoneType")]
                         ]
                     },
                     "PersonEmails": {
                         "_": [
-                            [("emailAddressType", "string")]
+                            [("emailAddressType")]
                         ]
                     }
                 }
             }
-        } 
+        },
+
+        "Retention_FacultyStaff_AdvisingRelationship": {
+            "advisors": {
+                "_": [
+                    [("advrId"), ("studentId"), ("advrTermCode"), ("advrType", "string", None)]
+                ]
+            }
+        },
+        
+        "Retention_FacultyStaff_Teaching": {
+            "teaching": {
+                "_": [
+                    [("personSisId"), ("sisSectionId")],
+                    [("personLmsId"), ("sisSectionId")],
+                    [("personSisId"), ("lmsSectionId")],
+                    [("personLmsId"), ("lmsSectionId")],
+                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personSisId"), ("sectionRefNum")],
+                    [("personLmsId"), ("sectionRefNum")]
+                ]
+            }
+        },
+        
+        "Retention_StudentRecords_Students": {
+            "students": {
+                "_": [
+                    [("studentCurrentStatus")]
+                ],
+                "personItems": {
+                    "_": [
+                        [("personSisId")],
+                        [("personLmsId")]
+                    ]
+                },
+                "studentTermItems": {
+                    "_": [
+                        [("personSisId")],
+                        [("personLmsId")]
+                    ]
+                }
+            }
+        },
+        
+        "Retention_StudentRecords_StudentEnrollments": {
+            "studentEnrollments": {
+                "_": [
+                    [("personSisId"), ("sisSectionId")],
+                    [("personLmsId"), ("sisSectionId")],
+                    [("personSisId"), ("lmsSectionId")],
+                    [("personLmsId"), ("lmsSectionId")],
+                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personSisId"), ("sectionRefNum")],
+                    [("personLmsId"), ("sectionRefNum")]
+                ]
+            }
+        },
+
+        "Retention_Engagement_Attendance": {
+            "attendance": {
+                "_": [
+                    [("personSisId"), ("sisSectionId")],
+                    [("personLmsId"), ("sisSectionId")],
+                    [("personSisId"), ("lmsSectionId")],
+                    [("personLmsId"), ("lmsSectionId")],
+                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personSisId"), ("sectionRefNum")],
+                    [("personLmsId"), ("sectionRefNum")]
+                ]
+            }
+        },
+        
+        "Retention_Engagement_Assignments": {
+            "assignments": {
+                "_": [
+                    [("personSisId"), ("sisSectionId"), ("assignmentType"), ("assignmentTitle")],
+                    [("personLmsId"), ("sisSectionId"), ("assignmentType"), ("assignmentTitle")],
+                    [("personSisId"), ("lmsSectionId"), ("assignmentType"), ("assignmentTitle")],
+                    [("personLmsId"), ("lmsSectionId"), ("assignmentType"), ("assignmentTitle")],
+                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentType"), ("assignmentTitle")],
+                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentType"), ("assignmentTitle")],
+                    [("personSisId"), ("sectionRefNum"), ("assignmentType"), ("assignmentTitle")],
+                    [("personLmsId"), ("sectionRefNum"), ("assignmentType"), ("assignmentTitle")]
+                ]
+            }
+        },
+        
+        "Retention_Engagement_EngagementActivity": {
+            "engagementActivity": {
+                "_": [
+                    [("personSisId"), ("sisSectionId")],
+                    [("personLmsId"), ("sisSectionId")],
+                    [("personSisId"), ("lmsSectionId")],
+                    [("personLmsId"), ("lmsSectionId")],
+                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
+                    [("personSisId"), ("sectionRefNum")],
+                    [("personLmsId"), ("sectionRefNum")]
+                ]
+            }
+        }
+        
     }

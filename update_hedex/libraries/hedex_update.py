@@ -39,16 +39,17 @@ class HedexUpdate(object):
         for tup in p:
             # The name of the primary key column is the element 0
             p_name = tup[0]
-            # The type is element 1
-            p_type = tup[1]
+            # The optional type is element 1
+            l = tup.__len__()
+            p_type = tup[1] if l > 1 else "string"
             # The optional element 2 is the default value
             # If it is expressly set to None, then a None is an allowed value in a PK
             p_none_ok = False
-            try:
+            if l > 2:
                 p_default = tup[2]
                 if p_default == None:
                     p_none_ok = True
-            except:
+            else:
                 if pType == "boolean":
                     p_default = False
                 else:
