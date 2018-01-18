@@ -129,14 +129,14 @@ class PrimaryKeys(object):
         "Retention_Engagement_Assignments": {
             "assignments": {
                 "_": [
-                    [("personSisId"), ("sisSectionId"), ("assignmentType"), ("assignmentTitle")],
-                    [("personLmsId"), ("sisSectionId"), ("assignmentType"), ("assignmentTitle")],
-                    [("personSisId"), ("lmsSectionId"), ("assignmentType"), ("assignmentTitle")],
-                    [("personLmsId"), ("lmsSectionId"), ("assignmentType"), ("assignmentTitle")],
-                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentType"), ("assignmentTitle")],
-                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentType"), ("assignmentTitle")],
-                    [("personSisId"), ("sectionRefNum"), ("assignmentType"), ("assignmentTitle")],
-                    [("personLmsId"), ("sectionRefNum"), ("assignmentType"), ("assignmentTitle")]
+                    [("personSisId"), ("sisSectionId"), ("assignmentType"), ("assignmentLmsId")],
+                    [("personLmsId"), ("sisSectionId"), ("assignmentType"), ("assignmentLmsId")],
+                    [("personSisId"), ("lmsSectionId"), ("assignmentType"), ("assignmentLmsId")],
+                    [("personLmsId"), ("lmsSectionId"), ("assignmentType"), ("assignmentLmsId")],
+                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentType"), ("assignmentLmsId")],
+                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentType"), ("assignmentLmsId")],
+                    [("personSisId"), ("sectionRefNum"), ("assignmentType"), ("assignmentLmsId")],
+                    [("personLmsId"), ("sectionRefNum"), ("assignmentType"), ("assignmentLmsId")]
                 ]
             }
         },
