@@ -1,0 +1,2013 @@
+{
+  "tenantId": "Tulane123",
+  "RequestingAgent": "IDataHub",
+  "batchId": "789",
+  "batchGroupId": "20180104_120000",
+  "batchDataSourceAgents": "Banner|Canvas",
+  "students": [
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "2106316",
+          "personLmsId": "",
+          "lastName": "Carro",
+          "firstName": "Jasmine",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "8572465659",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jcarro10@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": []
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "2205281",
+          "personLmsId": "",
+          "lastName": "Wilson",
+          "firstName": "Robin",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "4523696647",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "rwilso12@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "2205281",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "28-NOV-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "2319029",
+          "personLmsId": "",
+          "lastName": "Matsumiya",
+          "firstName": "Joseph",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "1401919139",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jmatsumi@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "2319029",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "30-NOV-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "2325464",
+          "personLmsId": "",
+          "lastName": "Nunez",
+          "firstName": "Sophia",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6171779715",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "snunez10@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "2325464",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "01-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "2388783",
+          "personLmsId": "",
+          "lastName": "Wechsler",
+          "firstName": "Hannah",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "1835248163",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "hwechs11@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "2388783",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "02-JAN-18",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "2474106",
+          "personLmsId": "",
+          "lastName": "Malagon",
+          "firstName": "Brooke",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "2933398797",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "bmalag14@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "2474106",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "31-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3188145",
+          "personLmsId": "",
+          "lastName": "Moscow",
+          "firstName": "Maxwell",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "1293163904",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "mmosco12@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3188145",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "09-NOV-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3236041",
+          "personLmsId": "",
+          "lastName": "Lee",
+          "firstName": "Josh",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "5753472682",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jlee11@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3236041",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "30-NOV-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3236045",
+          "personLmsId": "",
+          "lastName": "Lin",
+          "firstName": "Zoe",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6811539197",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "zlin2@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3236045",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "11-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3236051",
+          "personLmsId": "",
+          "lastName": "Leonard",
+          "firstName": "Jeffrey",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "7561487529",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jleonard@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3236051",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "03-JAN-18",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3250030",
+          "personLmsId": "",
+          "lastName": "Baker",
+          "firstName": "Lauren",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "7757773057",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "lbaker10@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3250030",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "20-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3250032",
+          "personLmsId": "",
+          "lastName": "Valderrama",
+          "firstName": "Erin",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "9169859357",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "evalde13@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3250032",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "18-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3250034",
+          "personLmsId": "",
+          "lastName": "Watson",
+          "firstName": "Hector",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "hwatson7@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": []
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3251835",
+          "personLmsId": "",
+          "lastName": "Bindler",
+          "firstName": "Nicole",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "2591147574",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "nbindler@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": []
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3251840",
+          "personLmsId": "",
+          "lastName": "Lara",
+          "firstName": "Joshua",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "7307713827",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jlara@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3251840",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "18-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3252305",
+          "personLmsId": "",
+          "lastName": "Ritz",
+          "firstName": "Surui",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "9090381546",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "sritz@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3252305",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "27-NOV-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3252306",
+          "personLmsId": "",
+          "lastName": "Chapman",
+          "firstName": "Sulchan",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "9682654262",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "schapm15@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3252306",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "07-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3253284",
+          "personLmsId": "",
+          "lastName": "Garg",
+          "firstName": "Alexis",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6276589708",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "agarg16@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": []
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3253406",
+          "personLmsId": "",
+          "lastName": "Hurd",
+          "firstName": "Vivian",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6616145175",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "vhurd11@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": []
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3253413",
+          "personLmsId": "",
+          "lastName": "Swoverland",
+          "firstName": "Kathleen",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "3899969961",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "kswove13@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3253413",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "20-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3255709",
+          "personLmsId": "",
+          "lastName": "Scherer",
+          "firstName": "Bryant",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "5333993684",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "bscher15@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3255709",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "28-NOV-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3255882",
+          "personLmsId": "",
+          "lastName": "Cochran",
+          "firstName": "James",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6726476280",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jcochr13@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3255882",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "14-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3256533",
+          "personLmsId": "",
+          "lastName": "Pierce",
+          "firstName": "Zinnia",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "8849878500",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "zpierc18@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3256533",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "02-JAN-18",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3256823",
+          "personLmsId": "",
+          "lastName": "Singleton",
+          "firstName": "Jessica",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "7919786121",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jsingle7@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3256823",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "28-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3256845",
+          "personLmsId": "",
+          "lastName": "McConnell",
+          "firstName": "Erika",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "8679360415",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "emcconn5@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3256845",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "12-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3258243",
+          "personLmsId": "",
+          "lastName": "Chastain",
+          "firstName": "Katherine",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "4641677295",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "kchast13@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3258243",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "22-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3258244",
+          "personLmsId": "",
+          "lastName": "Wong",
+          "firstName": "Bryan",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6147134541",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "bwong2@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3258244",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "21-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3260571",
+          "personLmsId": "",
+          "lastName": "Havumaki",
+          "firstName": "Adanma",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "8808406517",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "ahavuma4@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3260571",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "13-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3269178",
+          "personLmsId": "",
+          "lastName": "Merrill",
+          "firstName": "Alec",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6555630164",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "amerri10@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": []
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3269880",
+          "personLmsId": "",
+          "lastName": "Sabin",
+          "firstName": "Karim",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "1913580009",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "ksabin14@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3269880",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "13-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3269897",
+          "personLmsId": "",
+          "lastName": "O'Halloran",
+          "firstName": "Xiuchen",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "9297909541",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "xohall16@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3269897",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "27-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3269906",
+          "personLmsId": "",
+          "lastName": "Reyes",
+          "firstName": "Heather",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "1825726787",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "hreyes3@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3269906",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "20-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3270254",
+          "personLmsId": "",
+          "lastName": "Jordan",
+          "firstName": "Cong",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "4321275731",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "cjordan9@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3270254",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "19-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personItems": [
+        {
+          "personSisId": "3270602",
+          "personLmsId": "",
+          "lastName": "Moon",
+          "firstName": "Jordyn",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "8408192684",
+              "phoneType": "MOBILE"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "jmoon9@tulane.edu",
+              "emailAddressType": ""
+            }
+          ]
+        }
+      ],
+      "studentTermItems": [
+        {
+          "personSisId": "3270602",
+          "personLmsId": "",
+          "termCode": "201810",
+          "enrollmentDate": "17-DEC-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "",
+          "anticipatedGradTerm": "",
+          "cummGpa": "",
+          "totalHours": "",
+          "totalCredit": "",
+          "firstGenerationStudent": "",
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": "",
+          "estCreditsToGraduate": "",
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondarysMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "tenantId": "Tulane123",
+  "RequestingAgent": "IDataHub",
+  "batchId": "789",
+  "batchGroupId": "20180104_120000",
+  "batchDataSourceAgents": "Banner|Canvas",
+  "advisors": [
+    {
+      "advrId": "id123",
+      "studentId": "stu456",
+      "advrTermCode": "201810",
+      "advrType": "lousy",
+      "advrStatusInd": "Y",
+      "advrTermStart": "02/01/2018",
+      "advrTermEnd": "06/01/2018"
+    }
+  ]
+}
