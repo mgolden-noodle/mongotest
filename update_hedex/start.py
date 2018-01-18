@@ -1,2 +1,2 @@
-from libraries.hedex_update import HedexUpdate
+from libraries.update_hedex import UpdateHedex
 

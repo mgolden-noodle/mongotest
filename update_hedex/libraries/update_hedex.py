@@ -1,7 +1,7 @@
 from libraries.primary_keys import PrimaryKeys
 from libraries.dict_funcs import DictFuncs
 
-class HedexUpdate(object):
+class UpdateHedex(object):
     
     @classmethod
     def update_array_by_pk(self, the_array, update_dict, primary_keys):
