@@ -1,0 +1,441 @@
+{
+  "tenantId": "Tenant123",
+  "RequestingAgent": "IDataHub",
+  "batchId": "902",
+  "batchGroupId": "20180113_132131",
+  "batchDataSourceAgents": "Banner",
+  "staff": [
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2151264",
+          "personLmsId": "",
+          "lastName": "Haas",
+          "firstName": "Ashby",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "9360509956",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "ahaas12@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2147633",
+          "personLmsId": "",
+          "lastName": "McGuffey",
+          "firstName": "Wynton",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "6274059756",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "wmcguff1@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2313463",
+          "personLmsId": "",
+          "lastName": "Delaney",
+          "firstName": "Anna",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "5151198888",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "adelane5@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "3049514",
+          "personLmsId": "",
+          "lastName": "Sartz",
+          "firstName": "David",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "dsartz3@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2117258",
+          "personLmsId": "",
+          "lastName": "Denning",
+          "firstName": "Jared",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "4946458658",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "jdennin4@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2133741",
+          "personLmsId": "",
+          "lastName": "Heausler",
+          "firstName": "Andrew",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "aheaus13@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2058990",
+          "personLmsId": "",
+          "lastName": "Teran",
+          "firstName": "Madhukar",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "mteran3@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2192404",
+          "personLmsId": "",
+          "lastName": "Wakefield",
+          "firstName": "Michael",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "mwakefi8@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2120288",
+          "personLmsId": "",
+          "lastName": "Houtz",
+          "firstName": "Robert",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "rhoutz8@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2018077",
+          "personLmsId": "",
+          "lastName": "Halbeck",
+          "firstName": "Zhiming",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "zhalbec8@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2088636",
+          "personLmsId": "",
+          "lastName": "Close",
+          "firstName": "Katie",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "8576476581",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "kclose7@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2189729",
+          "personLmsId": "",
+          "lastName": "Wong",
+          "firstName": "Matthew",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "8742959808",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "mwong14@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2160360",
+          "personLmsId": "",
+          "lastName": "Knapic",
+          "firstName": "Zijun",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "zknapi14@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2313079",
+          "personLmsId": "",
+          "lastName": "Jacob",
+          "firstName": "Taylor",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "9854427941",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "tjacob1@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2313589",
+          "personLmsId": "",
+          "lastName": "Lafon",
+          "firstName": "Sasha",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "4404029422",
+              "phoneType": "WORK"
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "slafon10@tulane.edu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "facInd": "Y",
+      "advInd": "",
+      "staffInd": "",
+      "personItems": [
+        {
+          "personSisId": "2110229",
+          "personLmsId": "",
+          "lastName": "Dholakia",
+          "firstName": "Ella",
+          "personStatus": "A",
+          "personRequestingAgentMergedId": "",
+          "PersonPhones": [
+            {
+              "phoneNumber": "",
+              "phoneType": ""
+            }
+          ],
+          "PersonEmails": [
+            {
+              "emailAddress": "",
+              "emailAddressType": "edhola16@tulane.edu"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
