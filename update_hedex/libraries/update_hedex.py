@@ -53,7 +53,6 @@ class UpdateHedex(object):
     @classmethod
     def _update_array_by_pk(self, the_array, update_obj, primary_keys):
         self.debug_log.debug("update_array_by_pk(...)")
-        self.debug_log.debug(the_array)
         # Type checks
         if not self.is_sequence(the_array):
             raise ValueError("update_array_by_pk requires a list/tuple as the first parameter")
@@ -73,7 +72,8 @@ class UpdateHedex(object):
                 self.debug_log.debug("PK matched for item %d"%i)
                 self._do_update(obj, update_obj, primary_keys)
                 was_updated = True
-                break # if we think that there could be two items with the same PK, remove this
+                i += 1  # if we think that there could be two items with the same PK, remove this
+                break   # and this
             i += 1
         self.debug_log.debug("Total of %d records processed"%i)
         if not was_updated:

@@ -5,23 +5,22 @@ import logging
 import json
 from libraries.update_hedex import UpdateHedex
 from libraries.primary_keys import PrimaryKeys
+import re
 
 pkl_file_path = "data"
 
 if argv.__len__() != 2:
-    print("usage: start filename\n")
+    print("usage: start filename")
     exit(1)
 
 file_name = argv[1]
-try:
-    call = file_name[file_name.index("_"):]
-    call = call[1:call.rindex(".")]
-except:
-    print("file_name must be .../GET_SOME_HEDEX_CALL.json or .../POST_SOME_HEDEX_CALL.json. Was %s" % file_name)
-    exit(1)
+rx1 = re.compile('^(.*/|)(GET_|POST_|)')
+rx2 = re.compile('[0-9_]*\.json$')
+call = rx1.sub("", file_name)
+call = rx2.sub("", call)
 
 if call not in PrimaryKeys.primary_keys:
-    print("file_name must be .../GET_SOME_HEDEX_CALL.json or .../POST_SOME_HEDEX_CALL.json, where SOME_HEDEX_CALL is one of:")
+    print("file_name must be .../SOME_HEDEX_CALL.json. GET_ or POST_ is optional, as is a timestamp. SOME_HEDEX_CALL is one of:")
     print(list(primary_keys.keys()))
     exit(1)
 
