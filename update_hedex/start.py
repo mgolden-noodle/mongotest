@@ -3,11 +3,21 @@
 from sys import argv
 import logging
 import json
+import re
+import traceback
 from libraries.update_hedex import UpdateHedex
 from libraries.primary_keys import PrimaryKeys
-import re
 
 pkl_file_path = "data"
+log_level = logging.DEBUG
+# log_level = logging.ERROR
+
+
+global debug_log
+def show_message(message):
+    debug_log.error(message)
+    print(message)
+
 
 if argv.__len__() != 2:
     print("usage: start filename")
@@ -21,7 +31,8 @@ call = rx2.sub("", call)
 
 if call not in PrimaryKeys.primary_keys:
     print("file_name must be .../SOME_HEDEX_CALL.json. GET_ or POST_ is optional, as is a timestamp. SOME_HEDEX_CALL is one of:")
-    print(list(primary_keys.keys()))
+    print(list(PrimaryKeys.primary_keys.keys()))
+    print("was %s"%file_name)
     exit(1)
 
 try:
@@ -30,13 +41,18 @@ except:
     print("Can't open %s" % file_name)
     exit(1)
 
-logging.basicConfig(filename=("update_hedex.log"))
+format = '%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s'
+logging.basicConfig(filename=("update_hedex.log"),format=format, datefmt="%Y-%m-%d %H:%M:%S")
 debug_log = logging.getLogger("update_hedex")
-debug_log.setLevel(logging.DEBUG);
+debug_log.setLevel(log_level);
 
-debug_log.debug("call is %s", call)
+show_message("file_name is %s, call is %s"%(file_name, call))
 
 json_payload = json.load(f)
 f.close()
 
-UpdateHedex.handle_payload(call, json_payload, pkl_file_path)
+try:
+    UpdateHedex.handle_payload(call, json_payload, pkl_file_path)
+except Exception as ex:
+    show_message("Error processing %s" % file_name)
+    show_message(''.join(traceback.format_exception(etype=type(ex), value=ex, tb=ex.__traceback__)))

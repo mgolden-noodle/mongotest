@@ -1,0 +1,9 @@
+time ./start.py ./samples/Retention_Engagement_EngagementActivity_*.json
+time ./start.py ./samples/Retention_Engagement_Attendance_*.json
+time ./start.py ./samples/Retention_FacultyStaff_Staff_*.json
+time ./start.py ./samples/Retention_Catalog_Terms_*.json
+time ./start.py ./samples/Retention_Engagement_Assignments_*.json
+time ./start.py ./samples/Retention_Catalog_Sections_*.json
+time ./start.py ./samples/Retention_StudentRecords_Students_*.json
+time ./start.py ./samples/Retention_StudentRecords_StudentEnrollments_*.json
+time ./start.py ./samples/Retention_FacultyStaff_Teaching_*.json

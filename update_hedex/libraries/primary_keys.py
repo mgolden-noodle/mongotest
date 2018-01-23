@@ -3,7 +3,7 @@ class PrimaryKeys(object):
         "Retention_Catalog_Terms": {
             "terms": {
                 "_": [
-                    [("termCode"), ("sessionCode", "string", None)]
+                    [("termCode",), ("sessionCode", "string", None)]
                 ]
             }
         },
@@ -11,44 +11,39 @@ class PrimaryKeys(object):
         "Retention_Catalog_Sections": {
             "sections": {
                 "_": [
-                    [("sisSectionId")],
-                    [("lmsSectionId")],
-                    [("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("termCode"), ("sectionRefNum")],
+                    [("sisSectionId",)],
+                    [("lmsSectionId",)],
+                    [("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("termCode",), ("sectionRefNum",)],
                 ]
             }
         },
         
         "Retention_FacultyStaff_Staff": {
-            "staff": {
+            "retentionPersons": {
                 "_": [
-                    [("facInd", "string", "N"), ("advInd", "string", "N"), ("staffInd", "string", "N")]
+                    [("personSisId",)],
+                    [("personLmsId",)]
                 ],
-                "personItems": {
+                "alternateIDs": {
                     "_": [
-                        [("personSisId")],
-                        [("personLmsId")]
-                    ],
-                    "alternateIDs": {
-                        "_": [
-                            [("personAlternateIdType")]
-                        ]
-                    },
-                    "PersonAddresses": {
-                        "_": [
-                            [("addressType"), ("addressStartDate", "date", None), ("addressEndDate", "date", None)]
-                        ]
-                    },
-                    "PersonPhones": {
-                        "_": [
-                            [("phoneType")]
-                        ]
-                    },
-                    "PersonEmails": {
-                        "_": [
-                            [("emailAddressType")]
-                        ]
-                    }
+                        [("personAlternateIdType",)]
+                    ]
+                },
+                "PersonAddresses": {
+                    "_": [
+                        [("addressType",), ("addressStartDate", "date", None), ("addressEndDate", "date", None)]
+                    ]
+                },
+                "PersonPhones": {
+                    "_": [
+                        [("phoneType",)]
+                    ]
+                },
+                "PersonEmails": {
+                    "_": [
+                        [("emailAddressType",)]
+                    ]
                 }
             }
         },
@@ -56,7 +51,7 @@ class PrimaryKeys(object):
         "Retention_FacultyStaff_AdvisingRelationship": {
             "advisors": {
                 "_": [
-                    [("advrId"), ("studentId"), ("advrTermCode"), ("advrType", "string", None)]
+                    [("advrId",), ("studentId",), ("advrTermCode",), ("advrType", "string", None)]
                 ]
             }
         },
@@ -64,33 +59,47 @@ class PrimaryKeys(object):
         "Retention_FacultyStaff_Teaching": {
             "teaching": {
                 "_": [
-                    [("personSisId"), ("sisSectionId")],
-                    [("personLmsId"), ("sisSectionId")],
-                    [("personSisId"), ("lmsSectionId")],
-                    [("personLmsId"), ("lmsSectionId")],
-                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personSisId"), ("termCode"), ("sectionRefNum")],
-                    [("personLmsId"), ("termCode"), ("sectionRefNum")]
+                    [("personSisId",), ("sisSectionId",)],
+                    [("personLmsId",), ("sisSectionId",)],
+                    [("personSisId",), ("lmsSectionId",)],
+                    [("personLmsId",), ("lmsSectionId",)],
+                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personSisId",), ("termCode",), ("sectionRefNum",)],
+                    [("personLmsId",), ("termCode",), ("sectionRefNum",)]
                 ]
             }
         },
         
         "Retention_StudentRecords_Students": {
-            "students": {
+            "retentionPersons": {
                 "_": [
-                    [("studentCurrentStatus")]
+                    [("personSisId",)],
+                    [("personLmsId",)]
                 ],
-                "personItems": {
+                "alternateIDs": {
                     "_": [
-                        [("personSisId")],
-                        [("personLmsId")]
+                        [("personAlternateIdType",)]
+                    ]
+                },
+                "PersonAddresses": {
+                    "_": [
+                        [("addressType",), ("addressStartDate", "date", None), ("addressEndDate", "date", None)]
+                    ]
+                },
+                "PersonPhones": {
+                    "_": [
+                        [("phoneType",)]
+                    ]
+                },
+                "PersonEmails": {
+                    "_": [
+                        [("emailAddressType",)]
                     ]
                 },
                 "studentTermItems": {
                     "_": [
-                        [("personSisId")],
-                        [("personLmsId")]
+                        [("termCode",)]
                     ]
                 }
             }
@@ -99,14 +108,14 @@ class PrimaryKeys(object):
         "Retention_StudentRecords_StudentEnrollments": {
             "studentEnrollments": {
                 "_": [
-                    [("personSisId"), ("sisSectionId")],
-                    [("personLmsId"), ("sisSectionId")],
-                    [("personSisId"), ("lmsSectionId")],
-                    [("personLmsId"), ("lmsSectionId")],
-                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personSisId"), ("termCode"), ("sectionRefNum")],
-                    [("personLmsId"), ("termCode"), ("sectionRefNum")]
+                    [("personSisId",), ("sisSectionId",)],
+                    [("personLmsId",), ("sisSectionId",)],
+                    [("personSisId",), ("lmsSectionId",)],
+                    [("personLmsId",), ("lmsSectionId",)],
+                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personSisId",), ("termCode",), ("sectionRefNum",)],
+                    [("personLmsId",), ("termCode",), ("sectionRefNum",)]
                 ]
             }
         },
@@ -114,14 +123,14 @@ class PrimaryKeys(object):
         "Retention_Engagement_Attendance": {
             "attendance": {
                 "_": [
-                    [("personSisId"), ("sisSectionId")],
-                    [("personLmsId"), ("sisSectionId")],
-                    [("personSisId"), ("lmsSectionId")],
-                    [("personLmsId"), ("lmsSectionId")],
-                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personSisId"), ("termCode"), ("sectionRefNum")],
-                    [("personLmsId"), ("termCode"), ("sectionRefNum")]
+                    [("personSisId",), ("sisSectionId",)],
+                    [("personLmsId",), ("sisSectionId",)],
+                    [("personSisId",), ("lmsSectionId",)],
+                    [("personLmsId",), ("lmsSectionId",)],
+                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personSisId",), ("termCode",), ("sectionRefNum",)],
+                    [("personLmsId",), ("termCode",), ("sectionRefNum",)]
                 ]
             }
         },
@@ -129,14 +138,14 @@ class PrimaryKeys(object):
         "Retention_Engagement_Assignments": {
             "assignments": {
                 "_": [
-                    [("personSisId"), ("sisSectionId"), ("assignmentLmsId")],
-                    [("personLmsId"), ("sisSectionId"), ("assignmentLmsId")],
-                    [("personSisId"), ("lmsSectionId"), ("assignmentLmsId")],
-                    [("personLmsId"), ("lmsSectionId"), ("assignmentLmsId")],
-                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentLmsId")],
-                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber"), ("assignmentLmsId")],
-                    [("personSisId"), ("termCode"), ("sectionRefNum"), ("assignmentLmsId")],
-                    [("personLmsId"), ("termCode"), ("sectionRefNum"), ("assignmentLmsId")]
+                    [("personSisId",), ("sisSectionId",), ("assignmentLmsId",)],
+                    [("personLmsId",), ("sisSectionId",), ("assignmentLmsId",)],
+                    [("personSisId",), ("lmsSectionId",), ("assignmentLmsId",)],
+                    [("personLmsId",), ("lmsSectionId",), ("assignmentLmsId",)],
+                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",), ("assignmentLmsId",)],
+                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",), ("assignmentLmsId",)],
+                    [("personSisId",), ("termCode",), ("sectionRefNum",), ("assignmentLmsId",)],
+                    [("personLmsId",), ("termCode",), ("sectionRefNum",), ("assignmentLmsId",)]
                 ]
             }
         },
@@ -144,14 +153,14 @@ class PrimaryKeys(object):
         "Retention_Engagement_EngagementActivity": {
             "engagementActivity": {
                 "_": [
-                    [("personSisId"), ("sisSectionId")],
-                    [("personLmsId"), ("sisSectionId")],
-                    [("personSisId"), ("lmsSectionId")],
-                    [("personLmsId"), ("lmsSectionId")],
-                    [("personSisId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personLmsId"), ("termCode"), ("sessionCode", "string", None), ("subjectCode"), ("sectionCourseNumber"), ("sectionNumber")],
-                    [("personSisId"), ("termCode"), ("sectionRefNum")],
-                    [("personLmsId"), ("termCode"), ("sectionRefNum")]
+                    [("personSisId",), ("sisSectionId",)],
+                    [("personLmsId",), ("sisSectionId",)],
+                    [("personSisId",), ("lmsSectionId",)],
+                    [("personLmsId",), ("lmsSectionId",)],
+                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
+                    [("personSisId",), ("termCode",), ("sectionRefNum",)],
+                    [("personLmsId",), ("termCode",), ("sectionRefNum",)]
                 ]
             }
         }

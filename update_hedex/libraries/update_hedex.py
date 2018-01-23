@@ -35,8 +35,10 @@ class UpdateHedex(object):
             raise ValueError(error)
 
         # iterate over the dictionaires in the value
+        to_append = []
         for d in json_payload[seq_key]:
-            self._update_array_by_pk(the_array, d, PrimaryKeys.primary_keys[call][seq_key])
+            self._update_array_by_pk(the_array, d, to_append, PrimaryKeys.primary_keys[call][seq_key])
+        the_array += to_append
 
         self.debug_log.debug("saving to .pkl file")
         Persist.save_obj(the_array, call, pkl_file_path)
@@ -51,13 +53,13 @@ class UpdateHedex(object):
 
     
     @classmethod
-    def _update_array_by_pk(self, the_array, update_obj, primary_keys):
-        self.debug_log.debug("update_array_by_pk(...)")
+    def _update_array_by_pk(self, the_array, update_obj, to_append, primary_keys):
+        self.debug_log.debug("_update_array_by_pk(...)")
         # Type checks
         if not self.is_sequence(the_array):
-            raise ValueError("update_array_by_pk requires a list/tuple as the first parameter")
+            raise ValueError("_update_array_by_pk requires a list/tuple as the first parameter")
         if not isinstance(update_obj, dict):
-            raise ValueError("update_array_by_pk requires a dict as the second parameter")
+            raise ValueError("_update_array_by_pk requires a dict as the second parameter, was %s" % update_obj)
         # We're going to loop over all the items in theArray
         i = 0
         was_updated = False
@@ -79,7 +81,7 @@ class UpdateHedex(object):
         if not was_updated:
             # If we didn't update an item in the list, add the whole update_obj as a new item
             self.debug_log.debug("PK not matched anywhere, appending")
-            the_array.append(update_obj)
+            to_append.append(update_obj)
     
     @classmethod
     def _check_pks(self, obj, update_obj, primary_keys):
@@ -88,11 +90,12 @@ class UpdateHedex(object):
         for p in primary_keys["_"]:
             if self._check_pk(obj, update_obj, p):
                 return True
+        return False
     
     
     @classmethod
     def _check_pk(self, obj, update_obj, p):
-        self.debug_log.debug("_check_pk(..., %s)" % p)
+        # self.debug_log.debug("_check_pk(..., %s)" % p)
         # Each primary key is a list of tuples
         for tup in p:
             # The name of the primary key column is the element 0
@@ -108,20 +111,21 @@ class UpdateHedex(object):
                 if p_default == None:
                     p_none_ok = True
             else:
-                if pType == "boolean":
+                if p_type == "boolean":
                     p_default = False
                 else:
                     p_default = None
             # Get the value
             o_val = obj[p_name] if p_name in obj else p_default
+            # self.debug_log.debug("name is %s o_val is %s" % (p_name, o_val))
             if o_val == None and not p_none_ok:
-                self.debug_log.debug("_check_pk() returns False")
+                # self.debug_log.debug("_check_pk() returns False")
                 return False
             u_val = update_obj[p_name] if p_name in update_obj else p_default
             if o_val != u_val:
-                self.debug_log.debug("_check_pk() returns False")
+                # self.debug_log.debug("_check_pk() returns False")
                 return False
-        self.debug_log.debug("_check_pk() returns True")
+        # self.debug_log.debug("_check_pk() returns True")
         return True
     
     
@@ -133,13 +137,18 @@ class UpdateHedex(object):
             if self.is_sequence(val):
                 # We should know about this in the object structure mapping
                 if key not in primary_keys:
-                    raise ValueError("unknown key '" + key + "' found")
+                    raise ValueError("unknown child key '" + key + "' found")
                 pk_key = primary_keys[key]
                 if "_" not in pk_key:
                     raise ValueError("on key '" + key + "' an array was found where a one-to-one child was expected")
                 if key in obj:
                     # If this key is in the object we're updating, we need to recur to update it
-                    self.update_array_by_pk(obj[key], val, pk_key)
+                    the_sub_array = obj[key]
+                    self.debug_log.debug("key is %s", key)
+                    to_append = []
+                    for sub_val in val:
+                        self._update_array_by_pk(the_sub_array, sub_val, to_append, pk_key)
+                    the_sub_array += to_append
                 else:
                     # If it's not, then we need to add it
                     obj[key] = update_obj[key]
@@ -153,7 +162,8 @@ class UpdateHedex(object):
                 if "_" in pk_key:
                     raise ValueError("on key '" + key + "' an one-to-one child was found where and array was expected")
                 if key in obj:
-                    # If the key is there, we simply update it - no need to search!
+                    self.debug_log.debug("key is %s", key)
+                    # If the key is there, we simply update it - it has no primary key to search for!
                     self._do_update(obj[key], val, pk_key)
             elif val == None:
                 # This means to remove the item from the structure
