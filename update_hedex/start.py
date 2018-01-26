@@ -44,7 +44,7 @@ except:
 format = '%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s'
 logging.basicConfig(filename=("update_hedex.log"),format=format, datefmt="%Y-%m-%d %H:%M:%S")
 debug_log = logging.getLogger("update_hedex")
-debug_log.setLevel(log_level);
+debug_log.setLevel(log_level)
 
 show_message("file_name is %s, call is %s"%(file_name, call))
 
@@ -52,6 +52,7 @@ json_payload = json.load(f)
 f.close()
 
 try:
+    UpdateHedex.init()
     UpdateHedex.handle_payload(call, json_payload, pkl_file_path)
 except Exception as ex:
     show_message("Error processing %s" % file_name)

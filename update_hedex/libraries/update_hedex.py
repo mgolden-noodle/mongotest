@@ -7,10 +7,11 @@ from libraries.persist import Persist
 class UpdateHedex(object):
 
     debug_log = None
-    client = None
     db = None
 
-    def init():
+    @classmethod
+    def init(self):
+        global db
         client = MongoClient('mongodb://localhost:27017/')  
         db = client.hedexdb
 
@@ -18,12 +19,6 @@ class UpdateHedex(object):
     def handle_payload(self, call, json_payload, pkl_file_path):
         if not self.debug_log:
             self.debug_log = logging.getLogger("update_hedex")
-
-        # Load the whole json structure for the .pkl file
-        self.debug_log.debug("Loading from .pkl file")
-        the_array = Persist.load_obj(call, pkl_file_path)
-        if not the_array:
-            self.debug_log.debug("Nothing loaded from .pkl file")
 
         # Examine the header. Doesn't do anything for now except call update_hedex
         seq_key = None
@@ -46,12 +41,10 @@ class UpdateHedex(object):
         to_append = []
         for update_obj in json_payload[seq_key]:
             self._update_mongo_by_pk(update_obj, call, to_append, PrimaryKeys.primary_keys[call][seq_key])
-        db.[call].update_many(to_append, ordered=False)
-
-        self.debug_log.debug("saving to .pkl file")
-        Persist.save_obj(the_array, call, pkl_file_path)
-
-
+        if to_append:
+            db[call].insert_many(to_append, ordered=False)
+    
+    
     @classmethod
     # is this item iterable (but not a string or dict)
     def is_sequence(self, arg):
@@ -86,59 +79,78 @@ class UpdateHedex(object):
     def _update_mongo_by_pk(self, update_obj, call, to_append, primary_keys):
         # Type checks
         if not isinstance(update_obj, dict):
-            raise ValueError("_update_array_by_pk requires a dict as the first parameter, was %s" % update_obj)
-        rows = self._query_pks(update_obj, call, primary_keys)
-        if rows:
+            raise ValueError("_update_mongo_by_pk requires a dict as the first parameter, was %s" % update_obj)
+        row = self._query_pks(update_obj, call, primary_keys)
+        if row:
             # If a primary key on this object matched the update_obj, then update the obj
-            self.debug_log.debug("PK matched")
-            if rows.__len__() > 1:
-                self.debug_log.warn("Warning: %d rows found, should have been 1", rows.__len__())
-            row = rows[0]
             self._do_update(row, update_obj, primary_keys)
+            self.debug_log.debug("replacing row %s", row["_id"])
             db[call].replace_one({"_id": row["_id"]}, row)
         else:
             to_append.append(update_obj)
-        
-
+    
+    
     @classmethod
     def _query_pks(self, update_obj, call, primary_keys):
         # The "_" element of the primary_keys dict is the list of primary keys consisting of tuples
         # Don't check for the existence of this, it has already been checked before invocation
+        terms = []
         for pk in primary_keys["_"]:
-            x = self._query_pk(obj, update_obj, pk)
-            if(x):
-                return x
-        return []
+            self._build_terms(update_obj, call, terms, pk)
+        l = terms.__len__()
+        if l > 1:
+            query = {"$or": terms}
+        elif l == 1:
+            query = terms[0]
+        else:
+            return None
+        self.debug_log.debug("Querying for %s", query)
+        rows = db[call].find(query)
+        # Figure out if we got 0, 1, or more rows back
+        row = None
+        try:
+            row = rows.next()
+        except StopIteration:
+            pass
+        if row:
+            self.debug_log.debug("PK matched")
+            try:
+                rows.next()
+            except:
+                pass
+            else:
+                self.debug_log.error("Error: more than 1 row found, query was %s", query)
+        rows.close()
+        return row
     
-
+    
     @classmethod
-    def _query_pk(self, update_obj, call, pk):
-        # self.debug_log.debug("_query_pk(..., %s)" % p)
+    def _build_terms(self, update_obj, call, terms, pk):
+        self.debug_log.debug("_build_terms(..., %s)", pk)
         # Each primary key is a list of tuples
-        terms = {}
+        one_term = {}
         for tup in pk:
             p_name, p_type, p_default, p_none_ok = self._unpack_tup(tup)
             # Get the value
             u_val = update_obj[p_name] if p_name in update_obj else p_default
-            # self.debug_log.debug("name is %s o_val is %s" % (p_name, o_val))
+            # self.debug_log.debug("name is %s o_val is %s", p_name, o_val)
             if u_val == None:
                 # If null is not allowed as a PK value, and the object we're looking for has a null
                 # in this PK, then it cannot match a row
                 if not p_none_ok:
-                    # self.debug_log.debug("_query_pk() returns []")
-                    return []
+                    self.debug_log.debug("_build_terms() returns nothing")
+                    return
                 # Note that null is only allowed as a PK value if it's the default.
                 # Therefore, if we're searching for a null, a non-existant key will also match.
-                terms[p_name] = None
-            else if u_val == p_default:
+                one_term[p_name] = None
+            elif u_val == p_default:
                 # The value is the default value, but not null.  Nonexistence will match
-                terms["$or"] = [{p_name: u_val}, {p_name: {"$exists": False}}]
+                one_term["$or"] = [{p_name: u_val}, {p_name: {"$exists": False}}]
             else:
                 # The value is not the default value, so only the correct value matches.
-                terms[p_name] = u_val
-        db
-        # self.debug_log.debug("_query_pk() returns True")
-        return True
+                one_term[p_name] = u_val
+        self.debug_log.debug("_build_terms appends")        
+        terms.append(one_term)
     
     
     @classmethod
@@ -153,20 +165,20 @@ class UpdateHedex(object):
         i = 0
         was_updated = False
         for obj in the_array:
-            self.debug_log.debug("Examining item %d"%i)
+            self.debug_log.debug("Examining item %d", i)
             # Another type check
             if not isinstance(obj, dict):
                 raise ValueError("update_array_by_pk requires the members of the second parameter to be dicts; item %d wasn't"%i)
             # Check primary keys
             if self._check_pks(obj, update_obj, primary_keys):
                 # If a primary key on this object matched the update_obj, then update the obj
-                self.debug_log.debug("PK matched for item %d"%i)
+                self.debug_log.debug("PK matched for item %d", i)
                 self._do_update(obj, update_obj, primary_keys)
                 was_updated = True
                 i += 1  # if we think that there could be two items with the same PK, remove this
                 break   # and this
             i += 1
-        self.debug_log.debug("Total of %d records processed"%i)
+        self.debug_log.debug("Total of %d records processed", i)
         if not was_updated:
             # If we didn't update an item in the list, add the whole update_obj as a new item
             self.debug_log.debug("PK not matched anywhere, appending")
@@ -185,13 +197,13 @@ class UpdateHedex(object):
     
     @classmethod
     def _check_pk(self, obj, update_obj, pk):
-        # self.debug_log.debug("_check_pk(..., %s)" % p)
+        # self.debug_log.debug("_check_pk(..., %s)", p)
         # Each primary key is a list of tuples
         for tup in pk:
             p_name, p_type, p_default, p_none_ok = self._unpack_tup(tup)
             # Get the value
             o_val = obj[p_name] if p_name in obj else p_default
-            # self.debug_log.debug("name is %s o_val is %s" % (p_name, o_val))
+            # self.debug_log.debug("name is %s o_val is %s", p_name, o_val)
             if o_val == None and not p_none_ok:
                 # self.debug_log.debug("_check_pk() returns False")
                 return False
