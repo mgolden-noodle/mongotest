@@ -14,12 +14,14 @@ class UpdateHedex(object):
         global db
         client = MongoClient('mongodb://localhost:27017/')  
         db = client.hedexdb
-
+        self.debug_log = logging.getLogger("update_hedex")
+    
+    
     @classmethod
     def handle_payload(self, call, json_payload, pkl_file_path):
         if not self.debug_log:
-            self.debug_log = logging.getLogger("update_hedex")
-
+            self.init()
+        
         # Examine the header. Doesn't do anything for now except call update_hedex
         seq_key = None
         for k, v in json_payload.items():
