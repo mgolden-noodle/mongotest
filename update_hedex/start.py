@@ -8,7 +8,6 @@ import traceback
 from libraries.update_hedex import UpdateHedex
 from libraries.primary_keys import PrimaryKeys
 
-pkl_file_path = "data"
 log_level = logging.DEBUG
 # log_level = logging.ERROR
 
@@ -53,7 +52,7 @@ f.close()
 
 try:
     UpdateHedex.init()
-    UpdateHedex.handle_payload(call, json_payload, pkl_file_path)
+    UpdateHedex.handle_payload(call, json_payload)
 except Exception as ex:
     show_message("Error processing %s" % file_name)
     show_message(''.join(traceback.format_exception(etype=type(ex), value=ex, tb=ex.__traceback__)))

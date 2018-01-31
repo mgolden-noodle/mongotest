@@ -17,7 +17,7 @@ class UpdateHedex(object):
     
     
     @classmethod
-    def handle_payload(self, call, json_payload, pkl_file_path):
+    def handle_payload(self, call, json_payload):
         if not self.debug_log:
             self.init()
         
