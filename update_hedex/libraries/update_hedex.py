@@ -2,7 +2,6 @@ import logging
 from pymongo import MongoClient  
 
 from libraries.primary_keys import PrimaryKeys
-from libraries.persist import Persist
 
 class UpdateHedex(object):
 
