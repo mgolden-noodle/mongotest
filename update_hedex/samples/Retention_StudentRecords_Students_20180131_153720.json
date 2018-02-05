@@ -1,0 +1,1888 @@
+{
+  "tenantId": "Tenant123",
+  "RequestingAgent": "IDataHub",
+  "batchId": "1020",
+  "batchGroupId": "20180131_153720",
+  "batchDataSourceAgents": "Banner",
+  "retentionPersons": [
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "2062273",
+      "personLmsId": "",
+      "lastName": "Toler",
+      "firstName": "Justin",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "1766158894",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "jtoler3@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ],
+      "studentTermItems": [
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-11",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_G2",
+          "primaryProgramLevel": "G2",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-11-28",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-11-30",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-02",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-31",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-31",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-11-30",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-11",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-03",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-20",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-18",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-11-27",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-07",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-20",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-11-28",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-14",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-02",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-09",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-28",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-12",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-22",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-21",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-08",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-13",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-10",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-13",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-27",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-20",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-10",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-19",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2017-12-17",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_GR",
+          "primaryProgramLevel": "GR",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        },
+        {
+          "termCode": "201810",
+          "enrollmentDate": "2018-01-31",
+          "enrollmentTerm": "201810",
+          "anticipatedGradDate": "05/01/2020",
+          "anticipatedGradTerm": "202010",
+          "cummGpa": null,
+          "totalHours": null,
+          "totalCredit": null,
+          "firstGenerationStudent": null,
+          "firstTimeStudent": "",
+          "currAcadStanding": "",
+          "creditsOnTrack": null,
+          "estCreditsToGraduate": null,
+          "currentFaHold": "",
+          "currentBursarHold": "",
+          "primaryProgramCode": "SWMSW_G2",
+          "primaryProgramLevel": "G2",
+          "primaryDegreeCode": "MSW",
+          "primaryMajor1": "SWK",
+          "primaryMajor2": "",
+          "primaryConcentration1": "",
+          "primaryConcentration2": "",
+          "primaryMinor1": "",
+          "primaryMinor2": "",
+          "secondaryProgramCode": "",
+          "secondaryProgramLevel": "",
+          "secondaryDegreeCode": "",
+          "secondaryMajor1": "",
+          "secondaryMajor2": "",
+          "secondaryConcentration1": "",
+          "secondaryConcentration2": "",
+          "secondaryMinor1": "",
+          "secondaryMinor2": "",
+          "studentStatus": "AS",
+          "withdrawlReason": ""
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "2205281",
+      "personLmsId": "",
+      "lastName": "Martin",
+      "firstName": "Mark",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "3181722063",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "mmarti18@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "2319029",
+      "personLmsId": "",
+      "lastName": "Kracht",
+      "firstName": "Ian",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "2317156623",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "ikracht@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "2388783",
+      "personLmsId": "",
+      "lastName": "Zheng",
+      "firstName": "Valerie",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "3603254958",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "vzheng5@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "2474106",
+      "personLmsId": "",
+      "lastName": "Sheard",
+      "firstName": "Pen-Chieh",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "9882100283",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "pshear17@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3188145",
+      "personLmsId": "",
+      "lastName": "Shanur",
+      "firstName": "Taylor",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "8046395600",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "tshanu12@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3236041",
+      "personLmsId": "",
+      "lastName": "Zais",
+      "firstName": "John",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "4494410530",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "jzais18@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3236045",
+      "personLmsId": "",
+      "lastName": "Nolan",
+      "firstName": "Kai",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "6812433556",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "knolan18@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3236051",
+      "personLmsId": "",
+      "lastName": "Maxwell",
+      "firstName": "Michelle",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "2976167193",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "mmaxwel9@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3250030",
+      "personLmsId": "",
+      "lastName": "Brown",
+      "firstName": "Stanley",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "5401309240",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "sbrown1@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3250032",
+      "personLmsId": "",
+      "lastName": "Hoffman",
+      "firstName": "Reginae",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "1646517893",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "rhoffman@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3252305",
+      "personLmsId": "",
+      "lastName": "Copp",
+      "firstName": "Paul",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "3417869812",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "pcopp16@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3252306",
+      "personLmsId": "",
+      "lastName": "Kanovsky",
+      "firstName": "Katelin",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "1463102263",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "kkanov13@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3253413",
+      "personLmsId": "",
+      "lastName": "Burdette",
+      "firstName": "Joseph",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "7867015113",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "jburdet8@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3255709",
+      "personLmsId": "",
+      "lastName": "Rubashkin",
+      "firstName": "Elizabeth",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "2899293503",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "erubashk@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3255882",
+      "personLmsId": "",
+      "lastName": "Kameya",
+      "firstName": "Kevin",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "8812900982",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "kkameya8@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3256533",
+      "personLmsId": "",
+      "lastName": "Doran",
+      "firstName": "Alejandro",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "6311570807",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "adoran10@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3256816",
+      "personLmsId": "",
+      "lastName": "Jackson",
+      "firstName": "Isabel",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "8031776264",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "ijackso7@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3256823",
+      "personLmsId": "",
+      "lastName": "Conway",
+      "firstName": "Gina",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "8263425211",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "gconway1@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3256845",
+      "personLmsId": "",
+      "lastName": "Bencic",
+      "firstName": "Kellee",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "2659670494",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "kbenci10@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3258243",
+      "personLmsId": "",
+      "lastName": "Kallenbach",
+      "firstName": "Taylor",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "1313882085",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "tkalle11@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3258244",
+      "personLmsId": "",
+      "lastName": "Richard",
+      "firstName": "Trevor",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "5781145956",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "trichar1@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3258384",
+      "personLmsId": "",
+      "lastName": "Rodriguez",
+      "firstName": "Virginia",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "7027744656",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "vrodrig6@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3260571",
+      "personLmsId": "",
+      "lastName": "Horner",
+      "firstName": "Kelsey",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "4312224703",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "khorner6@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3268459",
+      "personLmsId": "",
+      "lastName": "Serrato",
+      "firstName": "Aileen",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "3822585907",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "aserra11@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3269246",
+      "personLmsId": "",
+      "lastName": "Baishya",
+      "firstName": "Gabrielle",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "1819420479",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "gbaishy8@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3269880",
+      "personLmsId": "",
+      "lastName": "Debraux",
+      "firstName": "Victoria",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "6178355676",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "vdebrau4@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3269897",
+      "personLmsId": "",
+      "lastName": "Yienger",
+      "firstName": "Emma",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "6874533372",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "eyienge6@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3269906",
+      "personLmsId": "",
+      "lastName": "Figgs",
+      "firstName": "Beatrice",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "2885332617",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "bfiggs3@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3270230",
+      "personLmsId": "",
+      "lastName": "Payanzo",
+      "firstName": "Briana",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "4433765472",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "bpayan15@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3270254",
+      "personLmsId": "",
+      "lastName": "Anderson",
+      "firstName": "Amtahmid",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "2860999138",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "aander17@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3270602",
+      "personLmsId": "",
+      "lastName": "Ferguson",
+      "firstName": "Haley",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "1500567852",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "hfergu17@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    },
+    {
+      "studentCurrentStatus": "Active",
+      "personSisId": "3277070",
+      "personLmsId": "",
+      "lastName": "Pierce",
+      "firstName": "Michael",
+      "personStatus": "A",
+      "personRequestingAgentMergedId": "",
+      "PersonPhones": [
+        {
+          "phoneNumber": "8670716112",
+          "phoneType": "MOBILE"
+        }
+      ],
+      "PersonEmails": [
+        {
+          "emailAddress": "mpierce4@tulane.edu",
+          "emailAddressType": "10"
+        }
+      ]
+    }
+  ]
+}
