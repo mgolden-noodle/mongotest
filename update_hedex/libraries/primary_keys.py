@@ -111,11 +111,7 @@ class PrimaryKeys(object):
                     [("personSisId",), ("sisSectionId",)],
                     [("personLmsId",), ("sisSectionId",)],
                     [("personSisId",), ("lmsSectionId",)],
-                    [("personLmsId",), ("lmsSectionId",)],
-                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
-                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
-                    [("personSisId",), ("termCode",), ("sectionRefNum",)],
-                    [("personLmsId",), ("termCode",), ("sectionRefNum",)]
+                    [("personLmsId",), ("lmsSectionId",)]
                 ]
             }
         },
@@ -123,14 +119,10 @@ class PrimaryKeys(object):
         "Retention_Engagement_Attendance": {
             "attendance": {
                 "_": [
-                    [("personSisId",), ("sisSectionId",)],
+                    [("personLmsId",), ("lmsSectionId",)],
                     [("personLmsId",), ("sisSectionId",)],
                     [("personSisId",), ("lmsSectionId",)],
-                    [("personLmsId",), ("lmsSectionId",)],
-                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
-                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
-                    [("personSisId",), ("termCode",), ("sectionRefNum",)],
-                    [("personLmsId",), ("termCode",), ("sectionRefNum",)]
+                    [("personSisId",), ("sisSectionId",)],
                 ]
             }
         },
@@ -138,14 +130,10 @@ class PrimaryKeys(object):
         "Retention_Engagement_Assignments": {
             "assignments": {
                 "_": [
-                    [("personSisId",), ("sisSectionId",), ("assignmentLmsId",)],
-                    [("personLmsId",), ("sisSectionId",), ("assignmentLmsId",)],
-                    [("personSisId",), ("lmsSectionId",), ("assignmentLmsId",)],
                     [("personLmsId",), ("lmsSectionId",), ("assignmentLmsId",)],
-                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",), ("assignmentLmsId",)],
-                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",), ("assignmentLmsId",)],
-                    [("personSisId",), ("termCode",), ("sectionRefNum",), ("assignmentLmsId",)],
-                    [("personLmsId",), ("termCode",), ("sectionRefNum",), ("assignmentLmsId",)]
+                    [("personLmsId",), ("sisSectionId",), ("assignmentLmsId",)],
+                    [("personSisId",), ("sisSectionId",), ("assignmentLmsId",)],
+                    [("personSisId",), ("lmsSectionId",), ("assignmentLmsId",)]
                 ]
             }
         },
@@ -153,14 +141,10 @@ class PrimaryKeys(object):
         "Retention_Engagement_EngagementActivity": {
             "engagementActivity": {
                 "_": [
-                    [("personSisId",), ("sisSectionId",)],
+                    [("personLmsId",), ("lmsSectionId",)],
                     [("personLmsId",), ("sisSectionId",)],
                     [("personSisId",), ("lmsSectionId",)],
-                    [("personLmsId",), ("lmsSectionId",)],
-                    [("personSisId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
-                    [("personLmsId",), ("termCode",), ("sessionCode", "string", None), ("subjectCode",), ("sectionCourseNumber",), ("sectionNumber",)],
-                    [("personSisId",), ("termCode",), ("sectionRefNum",)],
-                    [("personLmsId",), ("termCode",), ("sectionRefNum",)]
+                    [("personSisId",), ("sisSectionId",)]
                 ]
             }
         }

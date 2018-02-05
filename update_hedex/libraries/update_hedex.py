@@ -10,9 +10,8 @@ class UpdateHedex(object):
 
     @classmethod
     def init(self):
-        global db
         client = MongoClient('mongodb://localhost:27017/')  
-        db = client.hedexdb
+        self.db = client.hedexdb
         self.debug_log = logging.getLogger("update_hedex")
     
     
@@ -21,7 +20,7 @@ class UpdateHedex(object):
         if not self.debug_log:
             self.init()
         
-        # Examine the header. Doesn't do anything for now except call update_hedex
+        # Examine the header. Doesn't do anything for now except invoke update_mongo__by_pk
         seq_key = None
         for k, v in json_payload.items():
             self.debug_log.debug("examining key %s" % k)
@@ -41,9 +40,9 @@ class UpdateHedex(object):
         # iterate over the dictionaires in the value
         to_append = []
         for update_obj in json_payload[seq_key]:
-            self._update_mongo_by_pk(update_obj, call, to_append, PrimaryKeys.primary_keys[call][seq_key])
+            self._update_mongo_by_pk(update_obj, seq_key, to_append, PrimaryKeys.primary_keys[call][seq_key])
         if to_append:
-            db[call].insert_many(to_append, ordered=False)
+            self.db[seq_key].insert_many(to_append, ordered=False)
     
     
     @classmethod
@@ -77,27 +76,27 @@ class UpdateHedex(object):
 
     
     @classmethod
-    def _update_mongo_by_pk(self, update_obj, call, to_append, primary_keys):
+    def _update_mongo_by_pk(self, update_obj, seq_key, to_append, primary_keys):
         # Type checks
         if not isinstance(update_obj, dict):
             raise ValueError("_update_mongo_by_pk requires a dict as the first parameter, was %s" % update_obj)
-        row = self._query_pks(update_obj, call, primary_keys)
+        row = self._query_pks(update_obj, seq_key, primary_keys)
         if row:
             # If a primary key on this object matched the update_obj, then update the obj
             self._do_update(row, update_obj, primary_keys)
             self.debug_log.debug("replacing row %s", row["_id"])
-            db[call].replace_one({"_id": row["_id"]}, row)
+            self.db[seq_key].replace_one({"_id": row["_id"]}, row)
         else:
             to_append.append(update_obj)
     
     
     @classmethod
-    def _query_pks(self, update_obj, call, primary_keys):
+    def _query_pks(self, update_obj, seq_key, primary_keys):
         # The "_" element of the primary_keys dict is the list of primary keys consisting of tuples
         # Don't check for the existence of this, it has already been checked before invocation
         terms = []
         for pk in primary_keys["_"]:
-            self._build_terms(update_obj, call, terms, pk)
+            self._build_terms(update_obj, terms, pk)
         l = terms.__len__()
         if l > 1:
             query = {"$or": terms}
@@ -106,7 +105,7 @@ class UpdateHedex(object):
         else:
             return None
         self.debug_log.debug("Querying for %s", query)
-        rows = db[call].find(query)
+        rows = self.db[seq_key].find(query)
         # Figure out if we got 0, 1, or more rows back
         row = None
         try:
@@ -126,7 +125,7 @@ class UpdateHedex(object):
     
     
     @classmethod
-    def _build_terms(self, update_obj, call, terms, pk):
+    def _build_terms(self, update_obj, terms, pk):
         self.debug_log.debug("_build_terms(..., %s)", pk)
         # Each primary key is a list of tuples
         one_term = {}
