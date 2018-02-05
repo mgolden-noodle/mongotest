@@ -190,7 +190,7 @@ class UpdateHedex(object):
     def _check_pks(self, obj, update_obj, primary_keys):
         # The "_" element of the primary_keys dict is the list of primary keys consisting of tuples
         # Don't check for the existence of this, it has already been checked before invocation
-        for p in primary_keys["_"]:
+        for pk in primary_keys["_"]:
             if self._check_pk(obj, update_obj, pk):
                 return True
         return False
